@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0578A0DAA9C479F09EB631B1 /* Pods_UniRoomieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53BA28EBE8487EDE68AD99B3 /* Pods_UniRoomieTests.framework */; };
+		0FA262F9BD607B8D5B12591E /* Pods_UniRoomieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7378F226E9E48DF80FEE2B4 /* Pods_UniRoomieUITests.framework */; };
+		B62418C9EC4F759E0DB3C166 /* Pods_UniRoomie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6BCB741EC69BD0013A5EAF /* Pods_UniRoomie.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D4769272D45F18F0096E0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D47690E2D45F18D0096E0A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D4769152D45F18D0096E0A9;
+			remoteInfo = UniRoomie;
+		};
+		0D4769312D45F18F0096E0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D47690E2D45F18D0096E0A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D4769152D45F18D0096E0A9;
+			remoteInfo = UniRoomie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D4769162D45F18D0096E0A9 /* UniRoomie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniRoomie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4769262D45F18F0096E0A9 /* UniRoomieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniRoomieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4769302D45F18F0096E0A9 /* UniRoomieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniRoomieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53BA28EBE8487EDE68AD99B3 /* Pods_UniRoomieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniRoomieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A1882391B1016BC18CAF30 /* Pods-UniRoomieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniRoomieTests.release.xcconfig"; path = "Target Support Files/Pods-UniRoomieTests/Pods-UniRoomieTests.release.xcconfig"; sourceTree = "<group>"; };
+		640DD0CA221BA501F96918C1 /* Pods-UniRoomie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniRoomie.release.xcconfig"; path = "Target Support Files/Pods-UniRoomie/Pods-UniRoomie.release.xcconfig"; sourceTree = "<group>"; };
+		6B0CC0913B861A8FEEC05005 /* Pods-UniRoomieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniRoomieUITests.release.xcconfig"; path = "Target Support Files/Pods-UniRoomieUITests/Pods-UniRoomieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9253984B8C5584FAC66C48A7 /* Pods-UniRoomieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniRoomieTests.debug.xcconfig"; path = "Target Support Files/Pods-UniRoomieTests/Pods-UniRoomieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F6BCB741EC69BD0013A5EAF /* Pods_UniRoomie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniRoomie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A720675FD18DEF8008FC010D /* Pods-UniRoomieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniRoomieUITests.debug.xcconfig"; path = "Target Support Files/Pods-UniRoomieUITests/Pods-UniRoomieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7378F226E9E48DF80FEE2B4 /* Pods_UniRoomieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniRoomieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3871981A362EE61711198D /* Pods-UniRoomie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniRoomie.debug.xcconfig"; path = "Target Support Files/Pods-UniRoomie/Pods-UniRoomie.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0D4769182D45F18D0096E0A9 /* UniRoomie */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UniRoomie;
+			sourceTree = "<group>";
+		};
+		0D4769292D45F18F0096E0A9 /* UniRoomieTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UniRoomieTests;
+			sourceTree = "<group>";
+		};
+		0D4769332D45F18F0096E0A9 /* UniRoomieUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UniRoomieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D4769132D45F18D0096E0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B62418C9EC4F759E0DB3C166 /* Pods_UniRoomie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4769232D45F18F0096E0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0578A0DAA9C479F09EB631B1 /* Pods_UniRoomieTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D47692D2D45F18F0096E0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA262F9BD607B8D5B12591E /* Pods_UniRoomieUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D47690D2D45F18D0096E0A9 = {
+			isa = PBXGroup;
+			children = (
+				0D4769182D45F18D0096E0A9 /* UniRoomie */,
+				0D4769292D45F18F0096E0A9 /* UniRoomieTests */,
+				0D4769332D45F18F0096E0A9 /* UniRoomieUITests */,
+				0D4769172D45F18D0096E0A9 /* Products */,
+				4BB0E0130A6E4135737BCF91 /* Pods */,
+				AB74DFE0AE414AD23B8EBFB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D4769172D45F18D0096E0A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D4769162D45F18D0096E0A9 /* UniRoomie.app */,
+				0D4769262D45F18F0096E0A9 /* UniRoomieTests.xctest */,
+				0D4769302D45F18F0096E0A9 /* UniRoomieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BB0E0130A6E4135737BCF91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE3871981A362EE61711198D /* Pods-UniRoomie.debug.xcconfig */,
+				640DD0CA221BA501F96918C1 /* Pods-UniRoomie.release.xcconfig */,
+				9253984B8C5584FAC66C48A7 /* Pods-UniRoomieTests.debug.xcconfig */,
+				63A1882391B1016BC18CAF30 /* Pods-UniRoomieTests.release.xcconfig */,
+				A720675FD18DEF8008FC010D /* Pods-UniRoomieUITests.debug.xcconfig */,
+				6B0CC0913B861A8FEEC05005 /* Pods-UniRoomieUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB74DFE0AE414AD23B8EBFB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F6BCB741EC69BD0013A5EAF /* Pods_UniRoomie.framework */,
+				53BA28EBE8487EDE68AD99B3 /* Pods_UniRoomieTests.framework */,
+				D7378F226E9E48DF80FEE2B4 /* Pods_UniRoomieUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D4769152D45F18D0096E0A9 /* UniRoomie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D47693A2D45F18F0096E0A9 /* Build configuration list for PBXNativeTarget "UniRoomie" */;
+			buildPhases = (
+				A18DEAB2E5F7F0FBBD4A8DF4 /* [CP] Check Pods Manifest.lock */,
+				0D4769122D45F18D0096E0A9 /* Sources */,
+				0D4769132D45F18D0096E0A9 /* Frameworks */,
+				0D4769142D45F18D0096E0A9 /* Resources */,
+				A68FF94CC165EE85D726F46C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0D4769182D45F18D0096E0A9 /* UniRoomie */,
+			);
+			name = UniRoomie;
+			productName = UniRoomie;
+			productReference = 0D4769162D45F18D0096E0A9 /* UniRoomie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D4769252D45F18F0096E0A9 /* UniRoomieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D47693D2D45F18F0096E0A9 /* Build configuration list for PBXNativeTarget "UniRoomieTests" */;
+			buildPhases = (
+				3AF986E475FF3B2147A0E766 /* [CP] Check Pods Manifest.lock */,
+				0D4769222D45F18F0096E0A9 /* Sources */,
+				0D4769232D45F18F0096E0A9 /* Frameworks */,
+				0D4769242D45F18F0096E0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D4769282D45F18F0096E0A9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0D4769292D45F18F0096E0A9 /* UniRoomieTests */,
+			);
+			name = UniRoomieTests;
+			productName = UniRoomieTests;
+			productReference = 0D4769262D45F18F0096E0A9 /* UniRoomieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D47692F2D45F18F0096E0A9 /* UniRoomieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4769402D45F18F0096E0A9 /* Build configuration list for PBXNativeTarget "UniRoomieUITests" */;
+			buildPhases = (
+				BA506D3EA07C97398D3FACE7 /* [CP] Check Pods Manifest.lock */,
+				0D47692C2D45F18F0096E0A9 /* Sources */,
+				0D47692D2D45F18F0096E0A9 /* Frameworks */,
+				0D47692E2D45F18F0096E0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D4769322D45F18F0096E0A9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0D4769332D45F18F0096E0A9 /* UniRoomieUITests */,
+			);
+			name = UniRoomieUITests;
+			productName = UniRoomieUITests;
+			productReference = 0D4769302D45F18F0096E0A9 /* UniRoomieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D47690E2D45F18D0096E0A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0D4769152D45F18D0096E0A9 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					0D4769252D45F18F0096E0A9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 0D4769152D45F18D0096E0A9;
+					};
+					0D47692F2D45F18F0096E0A9 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 0D4769152D45F18D0096E0A9;
+					};
+				};
+			};
+			buildConfigurationList = 0D4769112D45F18D0096E0A9 /* Build configuration list for PBXProject "UniRoomie" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D47690D2D45F18D0096E0A9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0D4D9EB92D45F73300A2EFB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0D4769172D45F18D0096E0A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D4769152D45F18D0096E0A9 /* UniRoomie */,
+				0D4769252D45F18F0096E0A9 /* UniRoomieTests */,
+				0D47692F2D45F18F0096E0A9 /* UniRoomieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D4769142D45F18D0096E0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4769242D45F18F0096E0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D47692E2D45F18F0096E0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AF986E475FF3B2147A0E766 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniRoomieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A18DEAB2E5F7F0FBBD4A8DF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniRoomie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68FF94CC165EE85D726F46C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniRoomie/Pods-UniRoomie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniRoomie/Pods-UniRoomie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniRoomie/Pods-UniRoomie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA506D3EA07C97398D3FACE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniRoomieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D4769122D45F18D0096E0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4769222D45F18F0096E0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D47692C2D45F18F0096E0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D4769282D45F18F0096E0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D4769152D45F18D0096E0A9 /* UniRoomie */;
+			targetProxy = 0D4769272D45F18F0096E0A9 /* PBXContainerItemProxy */;
+		};
+		0D4769322D45F18F0096E0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D4769152D45F18D0096E0A9 /* UniRoomie */;
+			targetProxy = 0D4769312D45F18F0096E0A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D4769382D45F18F0096E0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D4769392D45F18F0096E0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D47693B2D45F18F0096E0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3871981A362EE61711198D /* Pods-UniRoomie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UniRoomie/Preview Content\"";
+				DEVELOPMENT_TEAM = DAW542M4ZY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = conan.UniRoomie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D47693C2D45F18F0096E0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640DD0CA221BA501F96918C1 /* Pods-UniRoomie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UniRoomie/Preview Content\"";
+				DEVELOPMENT_TEAM = DAW542M4ZY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = conan.UniRoomie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D47693E2D45F18F0096E0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9253984B8C5584FAC66C48A7 /* Pods-UniRoomieTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DAW542M4ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = conan.UniRoomieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniRoomie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UniRoomie";
+			};
+			name = Debug;
+		};
+		0D47693F2D45F18F0096E0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A1882391B1016BC18CAF30 /* Pods-UniRoomieTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DAW542M4ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = conan.UniRoomieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniRoomie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UniRoomie";
+			};
+			name = Release;
+		};
+		0D4769412D45F18F0096E0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A720675FD18DEF8008FC010D /* Pods-UniRoomieUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DAW542M4ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = conan.UniRoomieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UniRoomie;
+			};
+			name = Debug;
+		};
+		0D4769422D45F18F0096E0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B0CC0913B861A8FEEC05005 /* Pods-UniRoomieUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DAW542M4ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = conan.UniRoomieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UniRoomie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D4769112D45F18D0096E0A9 /* Build configuration list for PBXProject "UniRoomie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4769382D45F18F0096E0A9 /* Debug */,
+				0D4769392D45F18F0096E0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D47693A2D45F18F0096E0A9 /* Build configuration list for PBXNativeTarget "UniRoomie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D47693B2D45F18F0096E0A9 /* Debug */,
+				0D47693C2D45F18F0096E0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D47693D2D45F18F0096E0A9 /* Build configuration list for PBXNativeTarget "UniRoomieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D47693E2D45F18F0096E0A9 /* Debug */,
+				0D47693F2D45F18F0096E0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D4769402D45F18F0096E0A9 /* Build configuration list for PBXNativeTarget "UniRoomieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4769412D45F18F0096E0A9 /* Debug */,
+				0D4769422D45F18F0096E0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0D4D9EB92D45F73300A2EFB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 0D47690E2D45F18D0096E0A9 /* Project object */;
+}

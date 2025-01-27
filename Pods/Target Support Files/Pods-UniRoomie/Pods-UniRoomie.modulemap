@@ -1,0 +1,6 @@
+framework module Pods_UniRoomie {
+  umbrella header "Pods-UniRoomie-umbrella.h"
+
+  export *
+  module * { export * }
+}
